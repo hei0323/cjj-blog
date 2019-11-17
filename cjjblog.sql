@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 本地测试
+ Source Server         : cjjblog
  Source Server Type    : MySQL
- Source Server Version : 50714
- Source Host           : localhost:3306
+ Source Server Version : 50644
+ Source Host           : 127.0.0.1:3306
  Source Schema         : cjjblog
 
  Target Server Type    : MySQL
- Target Server Version : 50714
+ Target Server Version : 50644
  File Encoding         : 65001
 
- Date: 17/11/2019 11:52:43
+ Date: 17/11/2019 22:53:18
 */
 
 SET NAMES utf8mb4;
@@ -75,6 +75,36 @@ CREATE TABLE `admin_role`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户角色对应关系' ROW_FORMAT = Compact;
 
 -- ----------------------------
+-- Table structure for casbin_rule
+-- ----------------------------
+DROP TABLE IF EXISTS `casbin_rule`;
+CREATE TABLE `casbin_rule`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ptype` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `v0` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `v1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `v2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `v3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `v4` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `v5` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 18 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of casbin_rule
+-- ----------------------------
+INSERT INTO `casbin_rule` VALUES (1, 'p', 'admin', '/v1/backend/article', 'GET', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (2, 'p', 'admin', '/v1/backend/article/:id', 'GET', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (3, 'p', 'admin', '/v1/backend/policy', 'GET', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (4, 'p', 'admin', '/v1/backend/policy', 'POST', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (5, 'p', 'admin', '/v1/backend/policy/:id', 'GET', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (6, 'p', 'admin', '/v1/backend/policyRole/:id', 'GET', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (7, 'p', 'admin', '/v1/backend/policyRole', 'GET', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (8, 'p', 'admin', '/v1/backend/policyRole', 'POST', NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (16, 'g', 'test_user', 'admin', NULL, NULL, NULL, NULL);
+INSERT INTO `casbin_rule` VALUES (17, 'g', 'chen', 'admin', NULL, NULL, NULL, NULL);
+
+-- ----------------------------
 -- Table structure for migrations
 -- ----------------------------
 DROP TABLE IF EXISTS `migrations`;
@@ -86,6 +116,11 @@ CREATE TABLE `migrations`  (
   `breakpoint` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`version`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of migrations
+-- ----------------------------
+INSERT INTO `migrations` VALUES (20181113071924, 'CasbinRule', '2019-11-17 17:45:21', '2019-11-17 17:45:21', 0);
 
 -- ----------------------------
 -- Table structure for permission
@@ -103,7 +138,12 @@ CREATE TABLE `permission`  (
   `create_time` int(10) UNSIGNED NOT NULL DEFAULT 0 COMMENT '创建时间',
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `idx_permission`(`path_id`, `status`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '权限节点' ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '权限节点' ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of permission
+-- ----------------------------
+INSERT INTO `permission` VALUES (1, '发布文章', 1, 3, '/v1/backend/artical', '2507d974c8f1ff09ed5e8311cf295cdd', '发布文章权限', 1, 1573976042);
 
 -- ----------------------------
 -- Table structure for permission_category
@@ -116,7 +156,13 @@ CREATE TABLE `permission_category`  (
   `status` smallint(4) UNSIGNED NOT NULL DEFAULT 1 COMMENT '权限分组状态1有效2无效',
   `create_time` int(10) UNSIGNED NOT NULL DEFAULT 0 COMMENT '权限分组创建时间',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of permission_category
+-- ----------------------------
+INSERT INTO `permission_category` VALUES (1, '系统设置', '配置系统相关参数信息', 1, 0);
+INSERT INTO `permission_category` VALUES (3, '文章管理', '文章编辑发布等权限', 1, 1573973969);
 
 -- ----------------------------
 -- Table structure for role
