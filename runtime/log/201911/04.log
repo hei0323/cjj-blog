@@ -1,0 +1,1732 @@
+---------------------------------------------------------------
+
+[2019-11-04T20:52:46+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.335654s] [吞吐率：2.98req/s] [内存消耗：1,801.79kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T20:53:06+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.265215s] [吞吐率：3.77req/s] [内存消耗：1,654.00kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T20:53:14+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.397755s] [吞吐率：2.51req/s] [内存消耗：1,561.80kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '69',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '斑马佩德罗',
+  'content' => 'xcvcv ',
+)
+[ error ] [1]session_start(): Failed to initialize storage module: files (path: )[/www/wwwroot/www.wkchat/thinkphp/library/think/Session.php:534]
+---------------------------------------------------------------
+
+[2019-11-04T20:53:18+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.252219s] [吞吐率：3.96req/s] [内存消耗：1,561.78kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小马冬梅',
+  'content' => 'sdfds',
+)
+[ error ] [1]session_start(): Failed to initialize storage module: files (path: )[/www/wwwroot/www.wkchat/thinkphp/library/think/Session.php:534]
+---------------------------------------------------------------
+
+[2019-11-04T20:53:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.257087s] [吞吐率：3.89req/s] [内存消耗：1,561.78kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小马冬梅',
+  'content' => 'sdfds',
+)
+[ error ] [1]session_start(): Failed to initialize storage module: files (path: )[/www/wwwroot/www.wkchat/thinkphp/library/think/Session.php:534]
+---------------------------------------------------------------
+
+[2019-11-04T20:54:22+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.248951s] [吞吐率：4.02req/s] [内存消耗：1,312.52kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小马冬梅',
+  'content' => 'sdfds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T20:54:43+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.220424s] [吞吐率：4.54req/s] [内存消耗：1,561.78kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小马冬梅',
+  'content' => 'sdfds',
+)
+[ error ] [1]session_start(): Failed to initialize storage module: files (path: )[/www/wwwroot/www.wkchat/thinkphp/library/think/Session.php:534]
+---------------------------------------------------------------
+
+[2019-11-04T20:54:45+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.282396s] [吞吐率：3.54req/s] [内存消耗：1,654.29kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:27:13+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.245293s] [吞吐率：4.08req/s] [内存消耗：1,654.29kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:27:17+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.297866s] [吞吐率：3.36req/s] [内存消耗：1,654.29kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:27:20+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.217028s] [吞吐率：4.61req/s] [内存消耗：1,363.29kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小羊苏西',
+  'content' => 'sdfd',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:30:29+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.303188s] [吞吐率：3.30req/s] [内存消耗：1,654.29kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:30:32+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.266551s] [吞吐率：3.75req/s] [内存消耗：1,654.41kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:30:42+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.219814s] [吞吐率：4.55req/s] [内存消耗：1,363.17kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小羊苏西',
+  'content' => 'sfsdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:31:24+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.267863s] [吞吐率：3.73req/s] [内存消耗：1,642.49kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '63',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '斑马佩德罗',
+  'content' => '',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:31:35+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.252754s] [吞吐率：3.96req/s] [内存消耗：1,642.39kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '63',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小狗丹尼',
+  'content' => 'asdfsdsds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:31:45+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.255165s] [吞吐率：3.92req/s] [内存消耗：1,654.41kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:31:50+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.212290s] [吞吐率：4.71req/s] [内存消耗：1,642.38kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小猪佩奇',
+  'content' => 'sdfsf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:31:56+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.334372s] [吞吐率：2.99req/s] [内存消耗：1,642.38kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小猪佩奇',
+  'content' => 'sdfsf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:31:57+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.303204s] [吞吐率：3.30req/s] [内存消耗：1,642.38kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小猪佩奇',
+  'content' => 'sdfsf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:31:57+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.218665s] [吞吐率：4.57req/s] [内存消耗：1,642.38kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小猪佩奇',
+  'content' => 'sdfsf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:32:01+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.288303s] [吞吐率：3.47req/s] [内存消耗：1,642.39kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '63',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小狗丹尼',
+  'content' => 'asdfsdsds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:32:01+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.197342s] [吞吐率：5.07req/s] [内存消耗：1,642.39kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '63',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小狗丹尼',
+  'content' => 'asdfsdsds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:34:52+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.258964s] [吞吐率：3.86req/s] [内存消耗：1,654.41kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:35:03+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.249340s] [吞吐率：4.01req/s] [内存消耗：1,654.41kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:36:08+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.294103s] [吞吐率：3.40req/s] [内存消耗：1,802.20kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:36:08+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.315445s] [吞吐率：3.17req/s] [内存消耗：1,636.23kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000001',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:08+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.344395s] [吞吐率：2.90req/s] [内存消耗：1,636.38kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000001',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:11+08:00] 192.168.78.1 GET www.cqqchat.com/
+[运行时间：0.272805s] [吞吐率：3.67req/s] [内存消耗：1,654.41kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-04T21:36:12+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.318624s] [吞吐率：3.14req/s] [内存消耗：1,636.23kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000002',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:12+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.335249s] [吞吐率：2.98req/s] [内存消耗：1,636.38kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000002',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.241344s] [吞吐率：4.14req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小羊苏西',
+  'content' => 'sdfds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:29+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.272375s] [吞吐率：3.67req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:32+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.272488s] [吞吐率：3.67req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小羊苏西',
+  'content' => 'sdfds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:36:32+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.213684s] [吞吐率：4.68req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小羊苏西',
+  'content' => 'sdfds',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:02+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.700029s] [吞吐率：1.43req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:02+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.768326s] [吞吐率：1.30req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:03+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.512794s] [吞吐率：1.95req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:03+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.527013s] [吞吐率：1.90req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:03+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.456554s] [吞吐率：2.19req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.216898s] [吞吐率：4.61req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.164729s] [吞吐率：6.07req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.196889s] [吞吐率：5.08req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.218609s] [吞吐率：4.57req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:25+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.278294s] [吞吐率：3.59req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:26+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.319261s] [吞吐率：3.13req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:26+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.333686s] [吞吐率：3.00req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:26+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.219216s] [吞吐率：4.56req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:26+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.138077s] [吞吐率：7.24req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:26+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.131943s] [吞吐率：7.58req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:26+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.240931s] [吞吐率：4.15req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:27+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.231856s] [吞吐率：4.31req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:27+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.349775s] [吞吐率：2.86req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)
+---------------------------------------------------------------
+
+[2019-11-04T21:45:27+08:00] 192.168.78.1 POST www.cqqchat.com/customer/sendMsg
+[运行时间：0.243573s] [吞吐率：4.11req/s] [内存消耗：1,643.25kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'customer/sendMsg',
+  'route' => '@customer/Message/send',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=37ptaaro2i5cbdg95ba5j012im',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '66',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'nickname' => '小兔理查德',
+  'content' => 'sdf',
+)

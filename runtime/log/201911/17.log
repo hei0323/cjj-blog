@@ -1,0 +1,4859 @@
+---------------------------------------------------------------
+
+[2019-11-17T11:33:29+08:00] 192.168.78.1 GET 114.114.114.114/
+[运行时间：1.518487s] [吞吐率：0.66req/s] [内存消耗：2,023.02kb] [文件加载：101]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-17T11:33:30+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.791059s] [吞吐率：1.26req/s] [内存消耗：2,003.14kb] [文件加载：100]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000004',
+)
+---------------------------------------------------------------
+
+[2019-11-17T11:33:30+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.812872s] [吞吐率：1.23req/s] [内存消耗：2,003.14kb] [文件加载：100]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000004',
+)
+---------------------------------------------------------------
+
+[2019-11-17T11:34:09+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.566315s] [吞吐率：1.77req/s] [内存消耗：1,711.79kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'dc061272-8343-436b-b076-9e3a351167fb',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类不存在:app\admin\controller\v1\PermissionCategory[/www/wwwroot/www.wkchat/thinkphp/library/think/App.php:730]
+---------------------------------------------------------------
+
+[2019-11-17T11:36:16+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.364286s] [吞吐率：2.75req/s] [内存消耗：1,711.79kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'f714b797-ed3a-4381-b19d-46dfe6d0393b',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类不存在:app\admin\controller\v1\PermissionCategory[/www/wwwroot/www.wkchat/thinkphp/library/think/App.php:730]
+---------------------------------------------------------------
+
+[2019-11-17T11:36:18+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.442650s] [吞吐率：2.26req/s] [内存消耗：1,711.79kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '0908163f-d6f6-408c-b66c-da7b53261e46',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类不存在:app\admin\controller\v1\PermissionCategory[/www/wwwroot/www.wkchat/thinkphp/library/think/App.php:730]
+---------------------------------------------------------------
+
+[2019-11-17T11:37:09+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.380264s] [吞吐率：2.63req/s] [内存消耗：1,711.79kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '872ee134-c922-4202-b681-2cc414164c20',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类不存在:app\admin\controller\v1\PermissionCategory[/www/wwwroot/www.wkchat/thinkphp/library/think/App.php:730]
+---------------------------------------------------------------
+
+[2019-11-17T11:38:40+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.689747s] [吞吐率：1.45req/s] [内存消耗：2,592.91kb] [文件加载：112]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'c21528be-dd90-4018-81a6-43bd59da6503',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]分组名不能为空[/www/wwwroot/www.wkchat/vendor/gmars/tp5-rbac/src/Rbac.php:185]
+---------------------------------------------------------------
+
+[2019-11-17T11:42:26+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：11.663688s] [吞吐率：0.09req/s] [内存消耗：3,429.10kb] [文件加载：116]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '409',
+  'content-type' => 'multipart/form-data; boundary=--------------------------516583543640986617364013',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'd2b97613-7f25-4752-bfac-4104c9931223',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设置',
+  'des' => '配置系统相关参数信息',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1130]SQLSTATE[HY000] [1130] Host '192.168.78.128' is not allowed to connect to this MySQL server[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2019-11-17T11:43:35+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.640743s] [吞吐率：1.56req/s] [内存消耗：3,429.10kb] [文件加载：116]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '409',
+  'content-type' => 'multipart/form-data; boundary=--------------------------847250796512627215104929',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '5cb3259b-f45e-4a08-a40b-931fd8cf7577',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设置',
+  'des' => '配置系统相关参数信息',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'MrChen' is not allowed to connect to this MySQL server[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2019-11-17T11:44:13+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.589488s] [吞吐率：1.70req/s] [内存消耗：3,429.10kb] [文件加载：116]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '409',
+  'content-type' => 'multipart/form-data; boundary=--------------------------010514316449715824170833',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'dacb7e91-4fff-4c89-9516-dbfc1a20d2cd',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设置',
+  'des' => '配置系统相关参数信息',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'MrChen' is not allowed to connect to this MySQL server[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2019-11-17T11:44:21+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.483111s] [吞吐率：2.07req/s] [内存消耗：3,429.10kb] [文件加载：116]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '409',
+  'content-type' => 'multipart/form-data; boundary=--------------------------429853241181731566540634',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'be7092c7-adb2-4b7d-89c0-dd85c9e1db2f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设置',
+  'des' => '配置系统相关参数信息',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'MrChen' is not allowed to connect to this MySQL server[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2019-11-17T11:53:34+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.709666s] [吞吐率：1.41req/s] [内存消耗：3,317.88kb] [文件加载：111]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '409',
+  'content-type' => 'multipart/form-data; boundary=--------------------------238527271414327304207304',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'b53cc07a-f67b-4990-a2e0-ea96329a7fa7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设置',
+  'des' => '配置系统相关参数信息',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.088678s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.048362s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission_category` WHERE  `name` = '系统设置' LIMIT 1 [ RunTime:0.041924s ]
+[ sql ] [ SQL ] INSERT INTO `permission_category` (`name` , `description` , `status`) VALUES ('系统设置' , '配置系统相关参数信息' , 1) [ RunTime:0.015219s ]
+---------------------------------------------------------------
+
+[2019-11-17T12:34:17+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate
+[运行时间：1.207429s] [吞吐率：0.83req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T12:36:16+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.368031s] [吞吐率：2.72req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T12:36:34+08:00] 192.168.78.1 PATCH www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.625263s] [吞吐率：1.60req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T12:36:39+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.345095s] [吞吐率：2.90req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T12:58:06+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：1.091115s] [吞吐率：0.92req/s] [内存消耗：3,318.97kb] [文件加载：111]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '400',
+  'content-type' => 'multipart/form-data; boundary=--------------------------156518225928747180162479',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e3ee723b-f892-45a3-93ca-e37a0bc5353c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '文章管理',
+  'des' => '文章管理组权限',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047066s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.005588s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission_category` WHERE  `name` = '文章管理' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] INSERT INTO `permission_category` (`name` , `description` , `status` , `create_time`) VALUES ('文章管理' , '文章管理组权限' , 1 , 1) [ RunTime:0.040793s ]
+---------------------------------------------------------------
+
+[2019-11-17T12:59:28+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.360059s] [吞吐率：2.78req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T12:59:46+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.456246s] [吞吐率：2.19req/s] [内存消耗：2,030.76kb] [文件加载：102]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '264e77bf-6ba6-41a9-a8a5-8ef2200487ea',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: where[/www/wwwroot/www.wkchat/application/admin/controller/v1/PermissionCategory.php:22]
+---------------------------------------------------------------
+
+[2019-11-17T12:59:56+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.331091s] [吞吐率：3.02req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T13:00:19+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.342679s] [吞吐率：2.92req/s] [内存消耗：1,732.86kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T13:02:03+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate/1
+[运行时间：0.787870s] [吞吐率：1.27req/s] [内存消耗：2,601.61kb] [文件加载：112]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/update',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '502',
+  'content-type' => 'multipart/form-data; boundary=--------------------------660064790797945533173579',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '7e1244f4-02e7-4538-b220-c7e4ce6c2c5c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '----------------------------660064790797945533173579
+Content-Disposition:_form-data;_name' => '"name"
+
+文章管理
+----------------------------660064790797945533173579
+Content-Disposition: form-data; name="des"
+
+文章管理组权限
+----------------------------660064790797945533173579
+Content-Disposition: form-data; name="status"
+
+1
+----------------------------660064790797945533173579
+Content-Disposition: form-data; name="id"
+
+1
+----------------------------660064790797945533173579--
+',
+  'id' => '1',
+)
+[ error ] [0]分组名不能为空[/www/wwwroot/www.wkchat/vendor/gmars/tp5-rbac/src/Rbac.php:185]
+---------------------------------------------------------------
+
+[2019-11-17T13:02:33+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate/1
+[运行时间：0.349866s] [吞吐率：2.86req/s] [内存消耗：1,720.73kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/update',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '502',
+  'content-type' => 'multipart/form-data; boundary=--------------------------109350820515166683137304',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '4f7e1262-838a-450d-a4aa-0fd07436c74c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '----------------------------109350820515166683137304
+Content-Disposition:_form-data;_name' => '"name"
+
+文章管理
+----------------------------109350820515166683137304
+Content-Disposition: form-data; name="des"
+
+文章管理组权限
+----------------------------109350820515166683137304
+Content-Disposition: form-data; name="status"
+
+1
+----------------------------109350820515166683137304
+Content-Disposition: form-data; name="id"
+
+1
+----------------------------109350820515166683137304--
+',
+  'id' => '1',
+)
+---------------------------------------------------------------
+
+[2019-11-17T13:06:07+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate/1
+[运行时间：0.405452s] [吞吐率：2.47req/s] [内存消耗：2,600.68kb] [文件加载：112]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/update',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '502',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'content-type' => 'multipart/form-data; boundary=--------------------------619457567211570589237708',
+  'postman-token' => '3db46815-a8ab-463f-9093-2951ff537560',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '----------------------------619457567211570589237708
+Content-Disposition:_form-data;_name' => '"name"
+
+文章管理
+----------------------------619457567211570589237708
+Content-Disposition: form-data; name="des"
+
+文章管理组权限
+----------------------------619457567211570589237708
+Content-Disposition: form-data; name="status"
+
+1
+----------------------------619457567211570589237708
+Content-Disposition: form-data; name="id"
+
+1
+----------------------------619457567211570589237708--
+',
+  'id' => '1',
+)
+[ error ] [0]分组名不能为空[/www/wwwroot/www.wkchat/vendor/gmars/tp5-rbac/src/Rbac.php:185]
+---------------------------------------------------------------
+
+[2019-11-17T13:06:28+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate/1
+[运行时间：0.790638s] [吞吐率：1.26req/s] [内存消耗：3,465.32kb] [文件加载：119]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/update',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'postman-token' => 'ca45a150-9d5c-4597-a02f-f92f5fdfdcb3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'swfsdf',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.278579s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission_category` WHERE  `name` = 'swfsdf' LIMIT 1 [ RunTime:0.000244s ]
+[ error ] [0]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'description' cannot be null[/www/wwwroot/www.wkchat/vendor/gmars/tp5-rbac/src/Rbac.php:185]
+---------------------------------------------------------------
+
+[2019-11-17T13:07:26+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate/2
+[运行时间：0.717088s] [吞吐率：1.39req/s] [内存消耗：3,492.91kb] [文件加载：117]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/update',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '118',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'postman-token' => '7455e370-edfe-4a4b-ae04-1671b7f4463f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '文章管理',
+  'des' => '文章管理组权限',
+  'status' => '2',
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016121s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission_category` WHERE  `name` = '文章管理' LIMIT 1 [ RunTime:0.000272s ]
+[ error ] [0]分组名称不能重复[/www/wwwroot/www.wkchat/vendor/gmars/tp5-rbac/src/Rbac.php:185]
+---------------------------------------------------------------
+
+[2019-11-17T13:08:45+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/permissionCate/2
+[运行时间：0.907455s] [吞吐率：1.10req/s] [内存消耗：3,386.95kb] [文件加载：114]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/update',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '118',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'postman-token' => '4d6e8fc8-646a-405c-b694-0600c56694f9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '文章管理',
+  'des' => '文章管理组权限',
+  'status' => '2',
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission_category` WHERE  `name` = '文章管理'  AND `id` <> 2 LIMIT 1 [ RunTime:0.062479s ]
+[ sql ] [ SQL ] UPDATE `permission_category`  SET `name` = '文章管理' , `description` = '文章管理组权限' , `status` = 2  WHERE  `id` = 2 [ RunTime:0.022181s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:12:34+08:00] 192.168.78.1 DELETE www.cqqchat.com/v1/backend/permissionCate/2
+[运行时间：0.506388s] [吞吐率：1.97req/s] [内存消耗：3,222.27kb] [文件加载：112]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>',
+  'route' => '@admin/v1/PermissionCategory/delete',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '0249eccc-9e08-42e0-8381-68275f328ade',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009101s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.014863s ]
+[ sql ] [ SQL ] DELETE FROM `permission_category` WHERE  `id` = 2 [ RunTime:0.033134s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:15:25+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate/2/edit
+[运行时间：0.556487s] [吞吐率：1.80req/s] [内存消耗：3,331.71kb] [文件加载：115]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>/edit',
+  'route' => '@admin/v1/PermissionCategory/edit',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '5c523218-ddd1-49f2-ae71-3810afa2a54c',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049548s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000743s ]
+[ error ] [0]查询表达式错误:'id'[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Builder.php:309]
+---------------------------------------------------------------
+
+[2019-11-17T13:15:42+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate/1/edit
+[运行时间：0.511633s] [吞吐率：1.95req/s] [内存消耗：3,331.71kb] [文件加载：115]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>/edit',
+  'route' => '@admin/v1/PermissionCategory/edit',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'ebb5a21e-aea2-4c0f-a46c-5d45c4dee0d1',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038807s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000804s ]
+[ error ] [0]查询表达式错误:'id'[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Builder.php:309]
+---------------------------------------------------------------
+
+[2019-11-17T13:15:52+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate/1/edit
+[运行时间：0.462664s] [吞吐率：2.16req/s] [内存消耗：3,193.55kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate/<id>/edit',
+  'route' => '@admin/v1/PermissionCategory/edit',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '206c7920-db92-417a-8afe-7a2f66c1ce16',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018105s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `id` = 1 [ RunTime:0.007263s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:17:42+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.366844s] [吞吐率：2.73req/s] [内存消耗：2,031.14kb] [文件加载：102]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '04a8ec3f-f6a2-4cb6-a84b-7640deb2f1a5',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: where[/www/wwwroot/www.wkchat/application/admin/controller/v1/PermissionCategory.php:22]
+---------------------------------------------------------------
+
+[2019-11-17T13:20:04+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1
+[运行时间：0.435901s] [吞吐率：2.29req/s] [内存消耗：3,192.37kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '959faf7f-72f6-477a-a9a1-83a746e9858d',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048417s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:20:20+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=2
+[运行时间：0.486155s] [吞吐率：2.06req/s] [内存消耗：3,192.17kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e832f4a7-4b2a-414f-aa21-1a556150bd06',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008939s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 2 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:20:29+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1
+[运行时间：0.435764s] [吞吐率：2.29req/s] [内存消耗：3,192.37kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a1629d5f-da4c-4ce4-8b7d-0adfe1947222',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040139s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:20:57+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.434082s] [吞吐率：2.30req/s] [内存消耗：3,192.20kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '98ff8d7e-19bc-4559-a4aa-1b696c3e7633',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044020s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '系统' [ RunTime:0.000277s ]
+---------------------------------------------------------------
+
+[2019-11-17T13:21:11+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.436544s] [吞吐率：2.29req/s] [内存消耗：3,192.20kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '55a84984-5e93-4087-abeb-b732379dbca6',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037808s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '系统' [ RunTime:0.000242s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:02:34+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：1.767934s] [吞吐率：0.57req/s] [内存消耗：2,003.16kb] [文件加载：100]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000005',
+)
+---------------------------------------------------------------
+
+[2019-11-17T14:02:34+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：1.819268s] [吞吐率：0.55req/s] [内存消耗：2,003.16kb] [文件加载：100]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108fd00000005',
+)
+---------------------------------------------------------------
+
+[2019-11-17T14:02:35+08:00] 192.168.78.1 GET 114.114.114.114/
+[运行时间：0.720284s] [吞吐率：1.39req/s] [内存消耗：2,022.32kb] [文件加载：101]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-17T14:02:36+08:00] 192.168.78.1 GET www.cqqchat.com/api/v1/goodsGet/1
+[运行时间：0.675649s] [吞吐率：1.48req/s] [内存消耗：1,696.81kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/v1/goodsGet/<id>',
+  'route' => '@api/v1/Goods/get',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ error ] [0]类不存在:api\controller\event\Goods[/www/wwwroot/www.wkchat/thinkphp/library/think/App.php:730]
+---------------------------------------------------------------
+
+[2019-11-17T14:26:24+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.707577s] [吞吐率：1.41req/s] [内存消耗：3,192.38kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '255a07ea-4140-41b8-90cd-8f1de532627a',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051690s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.011341s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '系统' [ RunTime:0.000269s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:26:33+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E9%85%8D%E7%BD%AE
+[运行时间：0.424002s] [吞吐率：2.36req/s] [内存消耗：3,192.38kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'c0c0bbac-ee46-47b2-b6db-05bbad828390',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '配置',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051894s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.012361s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '配置' [ RunTime:0.000273s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:26:42+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE
+[运行时间：0.419184s] [吞吐率：2.39req/s] [内存消耗：3,192.63kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '970dcc46-f3f9-4838-8a9f-3a2c42ec8022',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设置',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030553s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '系统设置' [ RunTime:0.000294s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:26:47+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F%E8%AE%BE
+[运行时间：0.423594s] [吞吐率：2.36req/s] [内存消耗：3,192.42kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a200e202-02db-4a99-97b8-5da2d70344d4',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统设',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005826s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '系统设' [ RunTime:0.000239s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:26:50+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB
+[运行时间：0.437644s] [吞吐率：2.28req/s] [内存消耗：3,192.37kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '4b1f2473-6411-4256-b1f7-8a9ed8017d73',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041844s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '系' [ RunTime:0.000238s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:26:53+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=
+[运行时间：0.480425s] [吞吐率：2.08req/s] [内存消耗：3,190.09kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '151f7eed-00e4-43ec-8317-a6ad64183cfd',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036862s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.022789s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000212s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:31+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.777530s] [吞吐率：1.29req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '4a0f1a30-c971-438e-b4e5-2bd20148b4a5',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029755s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.010189s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000303s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:34+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.433217s] [吞吐率：2.31req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'd04f4571-4a15-48ed-bc80-de6fec2e6d31',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021241s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.005811s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000272s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:35+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.438529s] [吞吐率：2.28req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '97f724e4-3b43-4387-90d6-29a79bbe23bb',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043385s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000245s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:36+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.434652s] [吞吐率：2.30req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '0b446e99-8a57-460f-b90b-714098a1acd4',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037478s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000501s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:37+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.420497s] [吞吐率：2.38req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '55084816-16eb-406c-8a57-13a96e4b84e1',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040863s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000274s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:38+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.247443s] [吞吐率：4.04req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'dcd7ce3e-69f3-440f-9653-8274c5bc55c8',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000245s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:40+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.793910s] [吞吐率：1.26req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'b2ee77bd-11e0-4d1e-aa56-1bb648080a04',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025729s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000242s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:41+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.466104s] [吞吐率：2.15req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '50d37f13-2f13-466e-b78b-0f31f77ffe9a',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055636s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000248s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:42+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.410355s] [吞吐率：2.44req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'ec383f38-3b08-4077-8d7f-c7fa105e33ef',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020030s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000249s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:43+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.329846s] [吞吐率：3.03req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'ba86e739-139d-4b78-86e8-dce1e99a9957',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001105s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000242s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:44+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.342916s] [吞吐率：2.92req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '6175106d-f5ec-40b3-9bc0-e112ddca645a',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063249s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.009389s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000325s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:45+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.330166s] [吞吐率：3.03req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '84d45d0f-90a3-49de-9c65-17b4dd9e76a7',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053569s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.013751s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000280s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:45+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.308064s] [吞吐率：3.25req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '3e551c90-c183-4f01-a1d9-7137d23681f4',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025958s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000278s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:46+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.338566s] [吞吐率：2.95req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'df9dbe11-a8bc-4bab-a4a9-d74a17d29493',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055767s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000243s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:48+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.430968s] [吞吐率：2.32req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '65b61c1c-1b32-4b1f-9598-5a03b6042bc3',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000252s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:48+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.313362s] [吞吐率：3.19req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '97f6a608-6b93-4095-86d5-d3aa92d7301e',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004008s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.007315s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000273s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:49+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.411621s] [吞吐率：2.43req/s] [内存消耗：3,192.66kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '73bd4b1a-7f87-4f16-bca4-47eeb9534d6a',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031697s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `name` LIKE '%系统%' [ RunTime:0.000240s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:58+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1
+[运行时间：0.447183s] [吞吐率：2.24req/s] [内存消耗：3,192.58kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '43808caa-da41-4c80-b026-fde2cc95e9e5',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018979s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.007121s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:55:59+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1
+[运行时间：0.407067s] [吞吐率：2.46req/s] [内存消耗：3,192.58kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '6efc1b60-dde0-45c3-b0bf-2649737770bc',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017695s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:01+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1
+[运行时间：0.448525s] [吞吐率：2.23req/s] [内存消耗：3,192.58kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '0491784f-75c4-4838-a5ba-e961da8b10fa',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042010s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:02+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1
+[运行时间：0.444922s] [吞吐率：2.25req/s] [内存消耗：3,192.58kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '318a3283-9cad-46da-9827-4782bae6fa2d',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:17+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.645525s] [吞吐率：1.55req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e07c7136-c0bb-4aa9-9829-567aa5f4905c',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.241797s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000215s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:20+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.400918s] [吞吐率：2.49req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'caa7ae3e-39b6-4b25-ab66-6a25b4fda3e7',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000226s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:22+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.712483s] [吞吐率：1.40req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '5465c513-6f5f-4101-9ca6-52462053b025',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.308340s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000309s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:23+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.461808s] [吞吐率：2.17req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'cd74a7ba-7899-4916-85cc-d7828f200db0',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072173s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.001495s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000222s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:24+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.398648s] [吞吐率：2.51req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a188cc85-7a8d-4c06-94df-0f16391e12a7',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000209s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:26+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.687827s] [吞吐率：1.45req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '3a21f479-61b2-45ad-970e-f11cb9839f75',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001382s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.288945s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000233s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:27+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.412777s] [吞吐率：2.42req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'bdd35aad-43d5-4b37-8a37-4e5608a4b20d',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034089s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000238s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:27+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.239843s] [吞吐率：4.17req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'f7763998-4b3e-4726-9d89-fd1d9ba67b3f',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000208s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:29+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.548569s] [吞吐率：1.82req/s] [内存消耗：3,189.77kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '73d8c5e0-3387-47e5-a55c-1ec8cd35a60b',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.248749s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` [ RunTime:0.000235s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:56:36+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1&des&name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.683935s] [吞吐率：1.46req/s] [内存消耗：3,193.53kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '4cf03d86-a7e0-437b-8edc-c6718ab4b577',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+  'des' => '',
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.293273s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1  AND `name` LIKE '%系统%' [ RunTime:0.000355s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:58:50+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/permissionCate?status=1&des&name=%E7%B3%BB%E7%BB%9F
+[运行时间：0.501612s] [吞吐率：1.99req/s] [内存消耗：3,193.53kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '6625c6fc-0dca-420a-b660-419487d2c24b',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+  'des' => '',
+  'name' => '系统',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100529s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `permission_category` WHERE  `status` = 1  AND `name` LIKE '%系统%' [ RunTime:0.000266s ]
+---------------------------------------------------------------
+
+[2019-11-17T14:59:29+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permissionCate
+[运行时间：0.505006s] [吞吐率：1.98req/s] [内存消耗：3,319.70kb] [文件加载：111]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permissionCate',
+  'route' => '@admin/v1/PermissionCategory/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '406',
+  'content-type' => 'multipart/form-data; boundary=--------------------------397608098272371718450730',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a7bea514-a177-4e2a-9168-a7ba5f63f916',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '文章管理',
+  'des' => '文章编辑发布等权限',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019144s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission_category` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission_category` WHERE  `name` = '文章管理' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] INSERT INTO `permission_category` (`name` , `description` , `status` , `create_time`) VALUES ('文章管理' , '文章编辑发布等权限' , 1 , 1573973969) [ RunTime:0.016403s ]
+---------------------------------------------------------------
+
+[2019-11-17T15:34:02+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/permission
+[运行时间：0.577634s] [吞吐率：1.73req/s] [内存消耗：3,332.33kb] [文件加载：111]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/permission',
+  'route' => '@admin/v1/Permission/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '742',
+  'content-type' => 'multipart/form-data; boundary=--------------------------618202057697862458206722',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e03a5a08-dfec-434c-ba23-e6bd3e943dc5',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '发布文章',
+  'description' => '发布文章权限',
+  'status' => '1',
+  'type' => '1',
+  'category_id' => '3',
+  'path' => '/v1/backend/artical',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040379s ] mysql:host=127.0.0.1;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `permission` [ RunTime:0.022293s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission` WHERE  `name` = '发布文章' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `id` FROM `permission` WHERE  `path` = '/v1/backend/artical' LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] INSERT INTO `permission` (`name` , `description` , `status` , `type` , `category_id` , `path` , `create_time` , `path_id`) VALUES ('发布文章' , '发布文章权限' , 1 , 1 , 3 , '/v1/backend/artical' , 1573976042 , '2507d974c8f1ff09ed5e8311cf295cdd') [ RunTime:0.014914s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:17:47+08:00] 192.168.78.1 GET 114.114.114.114/
+[运行时间：1.574121s] [吞吐率：0.64req/s] [内存消耗：2,026.20kb] [文件加载：104]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.wkchat/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-17T21:27:51+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.571467s] [吞吐率：1.75req/s] [内存消耗：1,657.86kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '3660f1bc-f196-4855-908c-2a9edf9e85cd',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-17T21:28:16+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.391359s] [吞吐率：2.56req/s] [内存消耗：1,657.90kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'eccc8df5-e44d-4f70-9224-a8be1cb38245',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-17T21:28:18+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.421982s] [吞吐率：2.37req/s] [内存消耗：1,657.90kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '9b57faeb-b1d8-4f75-8806-b21e78189037',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-17T21:28:19+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.409870s] [吞吐率：2.44req/s] [内存消耗：1,657.90kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'b48140db-653f-48d6-9e6e-e0af2262b2c3',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-17T21:29:51+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：1.652641s] [吞吐率：0.61req/s] [内存消耗：3,606.55kb] [文件加载：155]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e3ba76d1-98b8-4c25-8729-36dc9466ccaf',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119896s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.042977s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.009045s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:29:54+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.944455s] [吞吐率：1.06req/s] [内存消耗：3,606.55kb] [文件加载：155]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '68c925d2-7ef0-41ef-91e2-f7f8ca1a62ed',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012867s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000247s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:30:21+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.288607s] [吞吐率：3.46req/s] [内存消耗：1,523.81kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e4ac345a-5ee4-4e72-8538-693dd44da441',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-17T21:30:41+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.293384s] [吞吐率：3.41req/s] [内存消耗：1,523.81kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '3affc6ec-01e6-400c-a0fc-f8148db73b5b',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-17T21:31:41+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.688790s] [吞吐率：1.45req/s] [内存消耗：3,606.59kb] [文件加载：155]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '70c9de08-26d2-4132-9aa8-cf7227288af6',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013490s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.010172s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000220s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:32:29+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.740701s] [吞吐率：1.35req/s] [内存消耗：3,759.73kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'c0c9426c-e6e4-42d9-8bd2-ecd044c61045',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010620s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.004961s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000621s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:32:31+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.660747s] [吞吐率：1.51req/s] [内存消耗：3,759.73kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '2836b4af-1a65-4802-bd8b-486813dc760e',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094207s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.008732s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000216s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:32:33+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.605278s] [吞吐率：1.65req/s] [内存消耗：3,759.73kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a8f0fd6f-e86c-4f8c-b95c-cffaa3d6b6bc',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000217s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:32:45+08:00] 192.168.78.1 PUT www.cqqchat.com/v1/backend/article
+[运行时间：0.448159s] [吞吐率：2.23req/s] [内存消耗：1,733.53kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2019-11-17T21:32:50+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/article
+[运行时间：0.679764s] [吞吐率：1.47req/s] [内存消耗：3,625.09kb] [文件加载：156]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '42a23b8b-6291-4623-8f59-55aefa6edcda',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012154s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.014766s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000294s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:32:55+08:00] 192.168.78.1 GET www.cqqchat.com/v1/backend/article
+[运行时间：0.888270s] [吞吐率：1.13req/s] [内存消耗：3,759.73kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/article',
+  'route' => '@admin/v1/Article/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '39ca91a0-744c-45dc-9a27-4249204595ef',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.293946s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000216s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:54:23+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：1.106790s] [吞吐率：0.90req/s] [内存消耗：3,930.84kb] [文件加载：163]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Article/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '401',
+  'content-type' => 'multipart/form-data; boundary=--------------------------479715316778594424880097',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '6091333a-1d47-4c7b-9938-b375b55e82ff',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policy',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031315s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000384s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:55:12+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.681636s] [吞吐率：1.47req/s] [内存消耗：3,930.87kb] [文件加载：163]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Article/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '405',
+  'content-type' => 'multipart/form-data; boundary=--------------------------986276953883246887899351',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e5bec18a-6bce-4db9-be23-fd7b5e8b06e3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policy/:id',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043025s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000217s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:55:51+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.657775s] [吞吐率：1.52req/s] [内存消耗：3,930.87kb] [文件加载：163]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Article/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '405',
+  'content-type' => 'multipart/form-data; boundary=--------------------------411611482798155429257604',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'e416257d-e725-4c0b-b027-6e2bbb5ca0c3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policy/:id',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034003s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000223s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:56:49+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.622240s] [吞吐率：1.61req/s] [内存消耗：3,767.52kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '405',
+  'content-type' => 'multipart/form-data; boundary=--------------------------458923878744848831511728',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '93f59656-2064-4e7e-9e7a-3443a7d822ba',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policy/:id',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025864s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000223s ]
+---------------------------------------------------------------
+
+[2019-11-17T21:57:01+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.644848s] [吞吐率：1.55req/s] [内存消耗：3,730.01kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '405',
+  'content-type' => 'multipart/form-data; boundary=--------------------------642401524284328587678537',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '826ed532-d3cc-4476-a527-a17add8ceac2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policy/:id',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041577s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.008901s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000270s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'test_user' , '/v1/backend/policy/:id' , 'GET') [ RunTime:0.013799s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:03:41+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.711425s] [吞吐率：1.41req/s] [内存消耗：3,827.05kb] [文件加载：161]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '409',
+  'content-type' => 'multipart/form-data; boundary=--------------------------872059324895120664256618',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '1da6553f-2786-4f30-9efc-2378e43dbb93',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policyRole/:id',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009019s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000237s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'test_user' , '/v1/backend/policyRole/:id' , 'GET') [ RunTime:0.011378s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:03:50+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.609307s] [吞吐率：1.64req/s] [内存消耗：3,827.28kb] [文件加载：161]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '405',
+  'content-type' => 'multipart/form-data; boundary=--------------------------695538732309190480671611',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'f308d41d-8f78-4a24-884e-3bc45a33cddc',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policyRole',
+  'method' => 'GET',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013863s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.008786s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'test_user' , '/v1/backend/policyRole' , 'GET') [ RunTime:0.012197s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:03:55+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.650388s] [吞吐率：1.54req/s] [内存消耗：3,827.77kb] [文件加载：161]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '406',
+  'content-type' => 'multipart/form-data; boundary=--------------------------926344610819367929241332',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'c8ee8c6b-4162-41d2-86ae-773d91eca8be',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'resource' => '/v1/backend/policyRole',
+  'method' => 'POST',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062843s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'test_user' , '/v1/backend/policyRole' , 'POST') [ RunTime:0.000718s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:07:10+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.612558s] [吞吐率：1.63req/s] [内存消耗：3,827.14kb] [文件加载：161]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------639885673065738867450395',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'ebcd87af-093a-4ac4-b7fb-d24f619d3d09',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012243s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.012928s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000232s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'test_user' , NULL , NULL) [ RunTime:0.000378s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:08:20+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.687900s] [吞吐率：1.45req/s] [内存消耗：3,700.21kb] [文件加载：160]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------977070450718042061502913',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'bce3f1c7-1264-4ee2-aeeb-e91f4e01af45',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019478s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000230s ]
+[ error ] [0]invalid policy size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:504]
+---------------------------------------------------------------
+
+[2019-11-17T22:08:52+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.654572s] [吞吐率：1.53req/s] [内存消耗：3,700.20kb] [文件加载：160]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------681931861380166724748301',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '4d360a3e-405e-4da2-8105-12f54ed8dd66',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038037s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.008300s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000286s ]
+[ error ] [0]invalid policy size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:504]
+---------------------------------------------------------------
+
+[2019-11-17T22:09:18+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.648361s] [吞吐率：1.54req/s] [内存消耗：3,827.12kb] [文件加载：161]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------057119959618308457042534',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '895ed334-8844-49cd-a846-efb94416b0c0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050567s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000228s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'chen' , NULL , NULL) [ RunTime:0.008088s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:09:49+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.782220s] [吞吐率：1.28req/s] [内存消耗：3,700.18kb] [文件加载：160]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------816048626602163014030449',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'b4901ffe-2875-40d0-95a3-335d6ba2aeaa',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014636s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000229s ]
+[ error ] [0]invalid policy size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:504]
+---------------------------------------------------------------
+
+[2019-11-17T22:10:01+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policy
+[运行时间：0.656910s] [吞吐率：1.52req/s] [内存消耗：3,827.12kb] [文件加载：161]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policy',
+  'route' => '@admin/v1/Policy/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------497041853574903053599709',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '48dd9f84-6572-4f81-b9a7-827f0e8d000b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015265s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000225s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1` , `v2`) VALUES ('p' , 'chen' , NULL , NULL) [ RunTime:0.015669s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:10:52+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.622213s] [吞吐率：1.61req/s] [内存消耗：3,783.95kb] [文件加载：157]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------387548545836428567988041',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '0a0a9735-6766-4d82-b1f2-462168981945',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000231s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:11:00+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.804308s] [吞吐率：1.24req/s] [内存消耗：3,984.54kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------802047484619513854742943',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '5e08bc4f-f0c7-4eb1-ba50-75e2ec995f6f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025403s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000237s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1`) VALUES ('g' , 'chen' , 'admin') [ RunTime:0.005098s ]
+[ error ] [0]致命错误: Call to undefined method stdClass::buildRoleLinks()[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Model/Policy.php:27]
+---------------------------------------------------------------
+
+[2019-11-17T22:12:08+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.638084s] [吞吐率：1.57req/s] [内存消耗：3,984.56kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------419084425575644359817865',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'f6c25117-cc41-424c-8c88-e8cfbcc52df3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010545s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.015872s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000255s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1`) VALUES ('g' , 'test_user' , 'admin') [ RunTime:0.003355s ]
+[ error ] [0]致命错误: Call to undefined method stdClass::buildRoleLinks()[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Model/Policy.php:27]
+---------------------------------------------------------------
+
+[2019-11-17T22:23:13+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.690302s] [吞吐率：1.45req/s] [内存消耗：3,984.56kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------011842673754597641628059',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'c8b03628-b045-41f6-b687-43fac451d8ef',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046713s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.006279s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000294s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1`) VALUES ('g' , 'test_user' , 'admin') [ RunTime:0.029503s ]
+[ error ] [0]致命错误: Call to undefined method stdClass::buildRoleLinks()[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Model/Policy.php:27]
+---------------------------------------------------------------
+
+[2019-11-17T22:24:09+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.671293s] [吞吐率：1.49req/s] [内存消耗：3,984.56kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------210508458901892745755395',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a56686a9-0928-41ac-8fc9-9245d39674ef',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034707s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000333s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1`) VALUES ('g' , 'test_user' , 'admin') [ RunTime:0.012624s ]
+[ error ] [0]致命错误: Call to undefined method stdClass::buildRoleLinks()[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Model/Policy.php:27]
+---------------------------------------------------------------
+
+[2019-11-17T22:30:41+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.695624s] [吞吐率：1.44req/s] [内存消耗：4,019.18kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------984105799290241690132475',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '48a26e0d-1263-4b1b-971e-d7fda8430eee',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026001s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000240s ]
+[ error ] [0]method not exist:CasbinAdapter\Think\Models\CasbinRule->addRoleForUser[/www/wwwroot/www.wkchat/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+
+[2019-11-17T22:32:53+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.701871s] [吞吐率：1.42req/s] [内存消耗：4,017.55kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------556457224433640574414183',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '1f6ed4b7-b462-43c0-b52e-6c8f728fd836',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063854s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000235s ]
+[ error ] [0]invalid request size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:488]
+---------------------------------------------------------------
+
+[2019-11-17T22:33:16+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.720899s] [吞吐率：1.39req/s] [内存消耗：4,016.52kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------489513684867404101630750',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '99c8c770-3a96-48fc-9747-c0d9368cb1b9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005072s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000231s ]
+[ error ] [0]invalid request size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:488]
+---------------------------------------------------------------
+
+[2019-11-17T22:33:53+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.640248s] [吞吐率：1.56req/s] [内存消耗：4,016.57kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------930463433917002844728122',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '44973842-1843-45bb-b454-3fecd02de5f4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000244s ]
+[ error ] [0]invalid request size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:488]
+---------------------------------------------------------------
+
+[2019-11-17T22:34:34+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.722826s] [吞吐率：1.38req/s] [内存消耗：4,016.56kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------023966524253311858241532',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '1c5c4182-0f25-42e2-945b-2519af99ac3b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086695s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000226s ]
+[ error ] [0]invalid request size[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Enforcer.php:488]
+---------------------------------------------------------------
+
+[2019-11-17T22:34:52+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.706161s] [吞吐率：1.42req/s] [内存消耗：3,984.56kb] [文件加载：167]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------495859214950978318389004',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '10e0da07-ff55-410e-ba55-0c2f877625e2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.042891s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000227s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1`) VALUES ('g' , 'test_user' , 'admin') [ RunTime:0.000354s ]
+[ error ] [0]致命错误: Call to undefined method stdClass::buildRoleLinks()[/www/wwwroot/www.wkchat/vendor/casbin/casbin/src/Model/Policy.php:27]
+---------------------------------------------------------------
+
+[2019-11-17T22:40:15+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.596413s] [吞吐率：1.68req/s] [内存消耗：3,628.89kb] [文件加载：155]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------444727501100471652795844',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '93e988b5-5cce-4e74-aff5-ae71c1bdd937',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044050s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000232s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:42:08+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：18.764535s] [吞吐率：0.05req/s] [内存消耗：3,710.38kb] [文件加载：155]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------125324762250044272602135',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '9f0242a3-ce87-4eee-9013-b92d7354beda',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054726s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.008519s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000295s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:42:21+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：12.412578s] [吞吐率：0.08req/s] [内存消耗：3,628.89kb] [文件加载：155]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------616967272034263144360947',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'f1964196-b53a-4319-9f2b-045899deadda',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018929s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000315s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:44:49+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.735720s] [吞吐率：1.36req/s] [内存消耗：3,656.36kb] [文件加载：153]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------883926650574598323875138',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'f7e7edbe-02a0-45b0-8e77-a927987bfd01',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032197s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.012071s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000273s ]
+[ error ] [0]The function "g" does not exist around position 1 for expression `g(r_sub, p_sub) && keyMatch2(r_obj, p_obj) && regexMatch(r_act, p_act)`.[/www/wwwroot/www.wkchat/vendor/symfony/expression-language/Parser.php:198]
+---------------------------------------------------------------
+
+[2019-11-17T22:45:21+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.670995s] [吞吐率：1.49req/s] [内存消耗：3,888.69kb] [文件加载：162]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '276',
+  'content-type' => 'multipart/form-data; boundary=--------------------------501436134706736045698683',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => '37f7d1bd-b5d7-4b03-a302-bbf66ad928c5',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'test_user',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023665s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000229s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:46:43+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.726631s] [吞吐率：1.38req/s] [内存消耗：3,852.02kb] [文件加载：162]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------852408281025530191589300',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'c1493bb5-055f-4ea2-8793-d14f8deb8f25',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033463s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.020269s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000237s ]
+[ sql ] [ SQL ] INSERT INTO `casbin_rule` (`ptype` , `v0` , `v1`) VALUES ('g' , 'chen' , 'admin') [ RunTime:0.011499s ]
+---------------------------------------------------------------
+
+[2019-11-17T22:46:46+08:00] 192.168.78.1 POST www.cqqchat.com/v1/backend/policyRole
+[运行时间：0.605329s] [吞吐率：1.65req/s] [内存消耗：3,889.66kb] [文件加载：162]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/backend/policyRole',
+  'route' => '@admin/v1/PolicyRole/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => true,
+    'middleware' => 
+    array (
+      0 => 'Cors',
+      1 => 'Authorization',
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '271',
+  'content-type' => 'multipart/form-data; boundary=--------------------------615258356070040704281374',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qu11cihfp9omf9rnt0pelq6h5q',
+  'host' => 'www.cqqchat.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'postman-token' => 'a1f89db0-cc50-432b-a2cd-0d477c0ed9b4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'chen',
+  'role' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006485s ] mysql:host=192.168.78.128;port=3306;dbname=cjjblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casbin_rule` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `casbin_rule` [ RunTime:0.000368s ]

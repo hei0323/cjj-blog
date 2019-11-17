@@ -1,0 +1,50 @@
+---------------------------------------------------------------
+
+[2019-11-11T18:34:58+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.473226s] [吞吐率：2.11req/s] [内存消耗：1,640.41kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108ff00000002',
+)
+---------------------------------------------------------------
+
+[2019-11-11T18:34:58+08:00] 192.168.78.1 POST www.cqqchat.com/customer/login
+[运行时间：0.541452s] [吞吐率：1.85req/s] [内存消耗：1,640.42kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.wkchat/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=89vd40qts0okus9dbbk51lkee6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.cqqchat.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.cqqchat.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'www.cqqchat.com',
+)
+[ info ] [ PARAM ] array (
+  'client_id' => '7f00000108ff00000002',
+)
